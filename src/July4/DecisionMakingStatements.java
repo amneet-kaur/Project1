@@ -13,8 +13,8 @@ public class DecisionMakingStatements {
         } else {
             System.out.println("This is an Odd Number");
         }
-        year = scanner.nextInt();
         System.out.println("Please Enter a Year: ");
+        year = scanner.nextInt();
         if (year % 4 == 0) {
             System.out.println("It is a leap year");
         } else {
